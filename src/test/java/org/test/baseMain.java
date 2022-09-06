@@ -92,7 +92,7 @@ public class baseMain extends BaseClass {
 				}
 			}
 		}
-	//	System.out.println(parseInt);
+		System.out.println(parseInt);
 		
 	}
 	

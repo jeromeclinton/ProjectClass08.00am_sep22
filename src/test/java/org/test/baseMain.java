@@ -69,14 +69,7 @@ public class baseMain extends BaseClass {
 		click(p.getClickSearch());
 		List<WebElement> priceList = p.getPriceList();
 		
-//		Set<WebElement> pri=new TreeSet<WebElement>();
-//		pri.addAll(priceList);
-//		for (WebElement webElement : pri) {
-//			String text = webElement.getText();
-//			String replace = text.replace("₹", "");
-//			String replace2 = replace.replace(",", "");
-//			System.out.println(replace2);
-//		}
+
 		
 		int size = priceList.size();		
 		int temp=0;
